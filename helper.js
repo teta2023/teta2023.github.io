@@ -23,7 +23,7 @@ function createAudioHTML(path) {
   
   function generateT2A(tableId) {
     let table = document.getElementById(tableId);
-    let ext = ['.txt', '_gt.wav', '_teta.wav', '_maa1.wav','_ldm.wav', '_tango.wav'];
+    let ext = ['.txt', '_gt.wav', '_teta.wav', '_maa1.wav','_ldm.wav', '_tango.wav','_ag.wav'];
   
     for (var i = 0; i < 10; i++) {
       generateExampleRow(table.rows[1 + i], 'data/t2a/' + i, ext, 0);
@@ -34,7 +34,7 @@ function createAudioHTML(path) {
   
   function generateVariable(tableId) {
     let table = document.getElementById(tableId);
-    let ext = ['.txt', '_teta.wav', '_maa1.wav','_ldm.wav', '_tango.wav'];
+    let ext = ['.txt', '_teta.wav', '_maa1.wav','_ldm.wav', '_tango.wav','_ag.wav'];
   
     for (var i = 0; i < 9; i++) {
       generateExampleRow(table.rows[1 + i], 'data/variable_length/' + i, ext, 0);
